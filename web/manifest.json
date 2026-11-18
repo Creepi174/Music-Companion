@@ -1,11 +1,11 @@
 {
-    "name": "untitled",
-    "short_name": "untitled",
+    "name": "music_companion",
+    "short_name": "music_companion",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "a music app by creepi",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

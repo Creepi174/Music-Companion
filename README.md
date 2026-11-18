@@ -1,6 +1,6 @@
-# untitled
+# music_companion
 
-A new Flutter project.
+a music app by creepi
 
 ## Getting Started
 

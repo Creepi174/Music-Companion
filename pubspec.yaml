@@ -1,5 +1,5 @@
-name: untitled
-description: "A new Flutter project."
+name: music_companion
+description: "a music app by creepi"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,10 +31,24 @@ dependencies:
   flutter:
     sdk: flutter
   material_ui: ^1.1.0
+  media_kit: ^1.1.10
+  media_kit_libs_video: ^1.0.4      # spielt Audio aus Video-Containern
+  media_kit_native_event_loop: ^1.0.9
+  file_picker: ^8.0.3
+  path: ^1.9.0
+  audio_metadata_reader: ^1.0.0
+  window_manager: ^0.3.8      # Für App-Icon & Fenster-Kontrolle (Desktop)
+  tray_manager: ^0.8.3        # Für System Tray (Desktop)
+  audio_service: ^0.18.12     # Für OS-Mediensteuerung (Windows/Android)
+  audio_service_win: ^0.0.3
+  audio_session: ^0.1.18      # Für Audio-Fokus (Android)
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
+dependency_overrides:
+  nativeapi: ^0.6.1
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +66,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/dev_icon.ico
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
